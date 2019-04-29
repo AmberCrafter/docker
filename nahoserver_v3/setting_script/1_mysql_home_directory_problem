@@ -1,7 +1,0 @@
-# This script used to solve the problem of mysql error.
-# Error info: No directory, logging in with HOME=/
-
-<sol>
-service mysql stop
-usermod -d /var/lib/mysql mysql
-service mysql restart

@@ -1,2 +1,0 @@
-From leisurelyazure/nahoserver:latest
-CMD ["/bin/bash","-c","service apache2 start & service ssh start -D FOREGROUND"]
