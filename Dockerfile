@@ -22,7 +22,7 @@ RUN pip3 install pymysql \
   && ln -s /etc/apache2/mods-available/cgid.conf /etc/apache2/mods-enabled/cgid.conf \
   && ln -s /usr/lib/cgi-bin /var/www/cgi-bin \
 #  && mkdir /var/run/sshd \
-  && echo 'root:ideasky' | chpasswd 
+  && echo 'root:PASSWORD' | chpasswd 
 #  && sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
 ENV NOTVISIBLE "in users profile"
