@@ -1,0 +1,8 @@
+// 當apache2 server 無法正確開啟php網頁的時候，可能是server與php設定檔mismatch
+// 處理方法：重新安裝php
+// 以php7.2為例
+sudo apt-get remove --purge php*
+sudo apt autoremove php*
+
+sudo apt-get install php7.2
+sudo apt-get install libapache2-mod-php7.2
